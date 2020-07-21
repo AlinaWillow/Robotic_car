@@ -6,8 +6,8 @@ decode_results results;
 int pv, v;
 
 //Infrared sensor
-const int pingPin = 13;
-int inPin = 12;
+const int pingPin = 13; // Trig
+int inPin = 12; //Echo
 
 void setup()
 {
